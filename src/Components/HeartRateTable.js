@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 function HeartRateTable() {
   const [data, setData] = useState([]);
 
@@ -18,7 +19,7 @@ function HeartRateTable() {
   };
 
   return (
-    <div>
+    <div className="table-container">
       <h1>Heart Rate Data</h1>
       <table>
         <thead>
